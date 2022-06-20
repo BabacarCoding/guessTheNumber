@@ -2,8 +2,8 @@ import random
 
 
 print("This random number guesser has three dificulties: Easy, Medium, and Hard.")
-difficulty = input("Type your desired difficulty: ")
-difficulty = (difficulty.lower()).strip()
+difficulty = (input("Type your desired difficulty: ")
+              .lower()).strip()
 
 
 def guessFunction(upperBound):
